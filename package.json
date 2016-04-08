@@ -4,9 +4,13 @@
   "description": "Logger Facade Express middleware",
   "main": "index.js",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "NODE_ENV=test istanbul cover _mocha -- test/* -R spec"
   },
   "repository": {
     "type": "git",
@@ -19,7 +23,7 @@
     "express",
     "middleware"
   ],
-  "author": "Pedro Januário <prnjanuario@gmail.com> (http://shared-mind.tumblr.com/)",
+  "author": "Pedro Januário <prnjanuario@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/micro-toolkit/logger-facade-express/issues"
