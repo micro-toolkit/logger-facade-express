@@ -1,0 +1,28 @@
+{
+  "name": "logger-facade-express",
+  "version": "1.0.0",
+  "description": "Logger Facade Express middleware",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micro-toolkit/logger-facade-express.git"
+  },
+  "keywords": [
+    "log",
+    "logger",
+    "facade",
+    "express",
+    "middleware"
+  ],
+  "author": "Pedro Januário <prnjanuario@gmail.com> (http://shared-mind.tumblr.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/micro-toolkit/logger-facade-express/issues"
+  },
+  "homepage": "https://github.com/micro-toolkit/logger-facade-express#readme"
+}
