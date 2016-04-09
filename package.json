@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "Logger Facade Express middleware",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "logger-facade-nodejs": "^1.0.0",
+    "on-finished": "^2.3.0",
+    "on-headers": "^1.0.1"
+  },
   "devDependencies": {
     "chai": "^3.5.0",
     "istanbul": "^0.4.2",
