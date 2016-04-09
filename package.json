@@ -7,10 +7,16 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "istanbul": "^0.4.2",
-    "mocha": "^2.4.5"
+    "jshint": "^2.9.1",
+    "mocha": "^2.4.5",
+    "sinon": "^1.17.3",
+    "sinon-chai": "^2.8.0",
+    "split": "^1.0.0",
+    "supertest": "^1.2.0"
   },
   "scripts": {
-    "test": "NODE_ENV=test istanbul cover _mocha -- test/* -R spec"
+    "test": "NODE_ENV=test istanbul cover _mocha -- test/* -R spec",
+    "lint": "jshint *.js"
   },
   "repository": {
     "type": "git",
