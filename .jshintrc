@@ -12,5 +12,5 @@
   "eqnull": true,
   "funcscope": true,
   "node": true,
-  "unused": true,
+  "unused": true
 }
