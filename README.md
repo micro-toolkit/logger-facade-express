@@ -1,4 +1,7 @@
 # Logger Facade Express
+
+[![Build Status](https://travis-ci.org/micro-toolkit/logger-facade-express.svg?branch=master)](https://travis-ci.org/micro-toolkit/logger-facade-express)
+
 HTTP request logger facade middleware for express inspired in [expressjs/morgan](https://github.com/expressjs/morgan) package.
 
 # How to use it
