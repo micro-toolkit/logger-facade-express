@@ -1,0 +1,18 @@
+sudo: false
+dist: trusty
+cache:
+  apt: true
+language: node_js
+services:
+node_js:
+  - 0.12
+  - 4
+  - 5
+before_script:
+  - npm install -g grunt-cli
+  - npm install -d
+branches:
+  only:
+    - master
+script:
+  - npm test
